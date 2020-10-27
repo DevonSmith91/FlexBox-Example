@@ -1,14 +1,25 @@
+/* Full Page CSS */
+
 body {
     margin: 0;
 }
 
-#topHalf {
-    height: 65vh;
-    width: 100vw;
+p {
+    margin: 0;
+    padding: 0;
 }
 
+/* Top of the page */
+
+#topHalf {
+    height: 60vh;
+    width: 90vw;
+}
+
+/* Footer styling */
+
 #footerContainer {
-    height: 35vh;
+    height: 40vh;
     width: 100vw;
     background-color: lightgray;
     display: flex;
@@ -25,72 +36,67 @@ body {
     flex-direction: column;
 }
 
-#contact{
+#footerBottom {
     height: 25vh;
     width: 70vw;
     display: flex;
     margin-top: 15px;
 }
 
-#leftSide, #rightSide {
+/* LEFT CONTAINER */
+
+#leftSide {
     width: 35vw;
     height: 25vh;
-}
-
-/* LEFT CONTAINER */
-#leftSide{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-#nameEmail{
+#nameEmailWrapper {
     display: flex;
 }
 
-#name, #email{
-    width: 44%;
-}
-#name{
-    margin-right: 15px;
+#name, #email {
+    width: 15vw;
 }
 
-#textArea{
+#name {
+    margin-right: 1vw;
+}
+
+#textArea {
     resize: none;
-    width: 96%;
+    width: 31.5vw;
 }
 
-#button{
+#button {
     width: 12vw;
     background-color: coral;
     height: 4vh;
     border: none;
 }
 
-#buttonImg{
+#buttonImg {
     height: 1vh;
     margin-right: 10px
 }
 
-
 /* RIGHT CONTAINER */
 
-#rightSide{
+#rightSide {
+    width: 35vw;
+    height: 25vh;
     display: flex;
     flex-direction: column;
 }
 
-p{
-    margin: 0;
-    padding: 0;
-}
-
-#buttonContainer{
+#buttonContainer {
     display: flex;
     justify-content: space-between;
 }
 
-#buttonsLeft, #buttonsRight{
+#buttonsLeft, #buttonsRight {
     height: 19vh;
     width: 16vw;
     display: flex;
@@ -98,8 +104,7 @@ p{
     justify-content: space-evenly;
 }
 
-.contactButtons{
+.contactButtons {
     display: flex;
-    
     width: 100%;
 }
