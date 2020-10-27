@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+#topHalf {
+    height: 65vh;
+    width: 100vw;
+}
+
+#footerContainer {
+    height: 35vh;
+    width: 100vw;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    height: 30vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact{
+    height: 25vh;
+    width: 70vw;
+    display: flex;
+    margin-top: 15px;
+}
+
+#leftSide, #rightSide {
+    width: 35vw;
+    height: 25vh;
+}
+
+/* LEFT CONTAINER */
+#leftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#nameEmail{
+    display: flex;
+}
+
+#name, #email{
+    width: 44%;
+}
+#name{
+    margin-right: 15px;
+}
+
+#textArea{
+    resize: none;
+    width: 96%;
+}
+
+#button{
+    width: 12vw;
+    background-color: coral;
+    height: 4vh;
+    border: none;
+}
+
+#buttonImg{
+    height: 1vh;
+    margin-right: 10px
+}
+
+
+/* RIGHT CONTAINER */
+
+#rightSide{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#buttonContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#buttonsLeft, #buttonsRight{
+    height: 19vh;
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contactButtons{
+    display: flex;
+    
+    width: 100%;
+}
